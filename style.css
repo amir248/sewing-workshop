@@ -239,9 +239,99 @@ articcle section:nth-of-type(2) div p{   /* lYFt */
   max-width: 1440px;
 }
 article section:nth-of-type(3){
-  background: orange;
+  /* background: orange; */
+  min-height: 750px;
   width:100%;
 }
+article section:nth-of-type(3) h3{
+  max-width:711px;
+  width:100%;
+  font-size:34px;
+}
+article section:nth-of-type(3) img{
+  max-width: 911px;
+  width:100%;
+}
+article section:nth-of-type(3) button{
+  background: rgba(249, 198, 0, 1);
+  width:163px;
+  height:54px;
+  border-radius: 4px;
+}
+
+/* SLIDE FOUR  */
+article section:nth-of-type(4){
+  width:100%;
+
+}
+/* article section:nth-of-type(4) div{ */
+body > main > article > section:nth-child(4) > div{
+  max-width: 1260px;
+  min-height:537px;
+  border-radius: 10px;
+  background:rgba(189, 120, 240, 1);
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(150px,500px));
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+@media(min-width:1340px){
+  article section:nth-of-type(4) div{
+    width: 1160px;
+  }
+  /* article section:nth-of-type(4) img{ */
+    body > main > article > section:nth-child(4) > div > img{
+    right:180px;
+  }
+}
+article section:nth-of-type(4) img{
+  position:relative;
+  right:115px;
+  width:100%;
+  max-width: 562px;
+}
+body > main > article > section:nth-child(4) > div > div >h3{
+/* article section:nth-of-type(4) div + div h3{ */
+  max-width: 485px;
+  width:100%;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 48px;
+}
+body > main > article > section:nth-child(4) > div > div >p{
+/* article section:nth-of-type(4) div div p{ */
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  height: 56px;
+  max-width: calc(550px - 0px);
+  width:calc(100% - 10px);
+  /* TYT LUFT */
+}
+body > main > article > section:nth-child(4) > div > div{
+  max-width:500px;
+  width:100%;
+}
+@media(max-width:500px){
+  body > main > article > section:nth-child(4) > div > div{
+    max-width:300px;
+    width:100%;
+  }
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* SECTION FIVE  */
+article section:nth-of-type(5){
+  width:100%;
+  max-width:1440px;
+}
+article section:nth-of-type(5) h2{
+  text-align: center;
+}
+
+
 /* FOOTER */
 footer{
   max-width: 1440px;
