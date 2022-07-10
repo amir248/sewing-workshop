@@ -276,6 +276,16 @@ footer section:nth-of-type(2){
   align-items:start;
   min-height: 100px;
 }
+@media(max-width:850px){
+  footer section:nth-of-type(2){
+    min-height: 590px;
+  }
+}
+@media(max-width:550px){
+  footer section:nth-of-type(2){
+    min-height: 890px;
+  }
+}
 footer section button{
   background: rgba(249, 198, 0, 1);
   height: 54px;
@@ -292,15 +302,25 @@ footer section span{
   max-width:1375.94px;
   height:1px;
 }
+footer section ul{
+  margin:3%;
+}
 footer section ul li{
   list-style:none;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+
 }
 footer section ul li:nth-of-type(1){
   color:yellow;
 }
 footer div{
   display:grid;
-  max-width: 1340px;
+  max-width: 1440px;
   width:100%;
   /* display:inline-block; */
   grid-template-columns: repeat( auto-fit, minmax(250px, 1fr));
