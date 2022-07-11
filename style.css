@@ -332,6 +332,7 @@ body > main > article > section:nth-child(4) > div > div{
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 /* SECTION FIVE  */
 article section:nth-of-type(5){
+  margin-top:5%;
   width:100%;
   max-width:1440px;
   display:grid;
@@ -345,17 +346,50 @@ article section:nth-of-type(5) h2{
   width:calc(100% - 6%);
   max-width: calc(593px - 6%);
   margin-left: 3%;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0.41999998688697815px;
+  text-align: left;
+
 }
 article section:nth-of-type(5) span{
   width:calc(100% - 6%);
   max-width: calc(593px - 6%);
   margin-left: 3%;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 1.399999976158142px;
+  text-align: left;
+
 }
 article section:nth-of-type(5) p{
   width:calc(100% - 6%);
   max-width: calc(593px - 6%);
   margin-left: 3%;
+  height: 144px;
+  border-radius: nullpx;
 }
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* SECTION SIX  */
+article section:nth-of-type(6){
+  width:100%;
+  max-width:1300px;
+  background: orange;
+}
+article section:nth-of-type(6) div{
+  min-height:300px;
+  /* background: yellow; */
+}
+article section:nth-of-type(6) div img{
+  width:40px;
+}
+article section:nth-of-type(6) img{
+  max-width: 513px;
+  width:100%;
+}
+
 
 
 /* FOOTER */
